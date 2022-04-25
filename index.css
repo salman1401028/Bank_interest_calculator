@@ -1,22 +1,33 @@
 td,th, table{
     border: 2px solid black;
     border-collapse: collapse;
+    
 }
 
 .bank-balance-display,td,th{
     padding: 10px;
+    border-radius: 10%;
+}
+
+#heading{
+    border:2px solid yellow;
+    background-color: bisque;
+    opacity: 0.8;
 }
 
 
 
 .bank-balance-display{
-    
+    background-color: antiquewhite;
+    opacity: .9;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     align-items: center;
+    border-radius: 10%;
+    zoom: 120%;
 }
 
 
@@ -30,5 +41,27 @@ td input{
     background-color: blue;
     padding:10px;
 }
+
+body {
+    background-image: url('https://nomadcapitalist.com/wp-content/uploads/2019/04/The-Best-Offshore-Banks-for-2022-Fintech-banks-700x467.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .Note {
+    position:absolute;
+    top: 15%;
+    left: 2%;
+    border: 1px solid red;
+    height: 385px;
+    width: 317px;
+    border-radius: 5%;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    padding:10px;
+
+  }
 
 
